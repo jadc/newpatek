@@ -1,0 +1,1 @@
+let intro=new Audio("intro.mp3");let song=new Audio("song.mp3");let video=document.getElementById("video");video.pause();setTimeout(()=>{video.play()},6300);intro.play();song.pause();song.loop=!0;intro.addEventListener("ended",()=>{song.play()})
